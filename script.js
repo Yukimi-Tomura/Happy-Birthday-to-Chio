@@ -129,7 +129,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // 誕生日メッセージの判定
         if (userBirthdate && userAppDate) {
-            const birthMonthDay = userBirthdate.substring(5); // "12-12"
+            const birthMonthDay = userBirthdate.substring(5); // "MM-DD"
             const appMonthDay = userAppDate.substring(5);     // "MM-DD"
 
             if (birthMonthDay === appMonthDay) {
