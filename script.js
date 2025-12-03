@@ -133,11 +133,11 @@ document.addEventListener('DOMContentLoaded', () => {
             const appMonthDay = userAppDate.substring(5);     // "MM-DD"
 
             if (birthMonthDay === appMonthDay) {
-                birthdayMessageDisplay.textContent = 'ちおちゃんお誕生日おめでとう！';
-                birthdayMessageDisplay.textContent = 'ちおちゃんお誕生日おめでとう！';
+                birthdayMessageDisplay.textContent = 'ちおちゃん\nお誕生日おめでとう！';
                 birthdayMessageDisplay.style.color = '#FF4500'; // オレンジレッド
                 birthdayMessageDisplay.style.fontWeight = 'bold';
                 birthdayMessageDisplay.style.fontSize = '1.5em';
+                birthdayMessageDisplay.style.whiteSpace = 'pre-wrap';
             } else {
                 birthdayMessageDisplay.textContent = 'A Very Merry Unbirthday to You';
                 birthdayMessageDisplay.style.color = '#1E90FF'; // ドジャーブルー
